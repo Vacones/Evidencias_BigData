@@ -1,0 +1,10 @@
+{
+  "dataset": "sayedgamal99/smoke-fire-detection-yolo",
+  "download_path": "/root/.cache/kagglehub/datasets/sayedgamal99/smoke-fire-detection-yolo/versions/1",
+  "images": 21527,
+  "image_bytes": 3116477841,
+  "label_bytes": 1856243,
+  "raw_bytes": 3118334084,
+  "raw_GB": 3.118334084,
+  "raw_GiB": 2.90417492762208
+}

@@ -1,0 +1,9 @@
+indicador,valor
+imagenes_originales,21527.0
+GB_imagenes_y_etiquetas,3.118334084
+train,14109.0
+val,3098.0
+test,4294.0
+MAE_test_puntos_porcentuales,9.751893502571045
+RMSE_test_puntos_porcentuales,15.433553222914927
+R2_test,0.47326915586423657

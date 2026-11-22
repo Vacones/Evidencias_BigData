@@ -1,0 +1,93 @@
+{
+  "volume": {
+    "dataset": "sayedgamal99/smoke-fire-detection-yolo",
+    "download_path": "/root/.cache/kagglehub/datasets/sayedgamal99/smoke-fire-detection-yolo/versions/1",
+    "images": 21527,
+    "image_bytes": 3116477841,
+    "label_bytes": 1856243,
+    "raw_bytes": 3118334084,
+    "raw_GB": 3.118334084,
+    "raw_GiB": 2.90417492762208
+  },
+  "class_names": {
+    "0": "smoke",
+    "1": "fire"
+  },
+  "split_method": "Particiones oficiales; validación derivada del train si no existe",
+  "split_counts": {
+    "train": 14109,
+    "val": 3098,
+    "test": 4294
+  },
+  "labels_excluded": 26,
+  "decode_errors": 0,
+  "duplicates_removed": 0,
+  "bytes_represented": 3116477841,
+  "feature_origin": "Parquet auditado de la ejecución original; ZIP SHA-256 verificado y cotejado con el inventario actual",
+  "validation": [
+    {
+      "model": "RandomForest_depth_5",
+      "depth": 5,
+      "rmse_cv_mean": 0.1762096920004916,
+      "rmse_cv_std": 0.0018154641024905474
+    },
+    {
+      "model": "RandomForest_depth_10",
+      "depth": 10,
+      "rmse_cv_mean": 0.15397077862251604,
+      "rmse_cv_std": 0.0013312832334552173
+    }
+  ],
+  "selected": "RandomForest_depth_10",
+  "test_metrics": {
+    "rmse": 0.15433553222914928,
+    "mae": 0.09751893502571045,
+    "r2": 0.47326915586423657
+  },
+  "baseline_test_metrics": {
+    "rmse": 0.21267932000403414,
+    "mae": 0.16419369042073434,
+    "r2": -0.00024739417098706973
+  },
+  "rmse_improvement_percent": 27.432750760054237,
+  "cross_validation": {
+    "numFolds": 3,
+    "results": [
+      {
+        "model": "RandomForest_depth_5",
+        "depth": 5,
+        "rmse_cv_mean": 0.1762096920004916,
+        "rmse_cv_std": 0.0018154641024905474
+      },
+      {
+        "model": "RandomForest_depth_10",
+        "depth": 10,
+        "rmse_cv_mean": 0.15397077862251604,
+        "rmse_cv_std": 0.0013312832334552173
+      }
+    ],
+    "fold_counts": [
+      {
+        "cv_fold": 0,
+        "count": 4692
+      },
+      {
+        "cv_fold": 1,
+        "count": 4702
+      },
+      {
+        "cv_fold": 2,
+        "count": 4715
+      }
+    ]
+  },
+  "dashboard_url": "https://public.tableau.com/app/profile/jacob.espejel/viz/Smoke_Big_Data_Jacob/SMOKEResultados",
+  "versions": {
+    "pyspark": "4.0.5",
+    "numpy": "2.4.6",
+    "pillow": "11.3.0",
+    "pandas": "2.2.3",
+    "kagglehub": "1.0.3"
+  },
+  "elapsed_seconds": 1028.9294593334198
+}
